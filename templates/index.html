@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TheGuestbook</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>Sign TheGuestbook</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <form method="POST" action="/submit">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required><br><br>
+                <label for="comment">Comment</label>
+                <textarea rows="4" name="comment" id="comment" placeholder="140 characters, no counter...hahaha!" maxlength="140" required></textarea><br><br>
+                <input type="submit">
+            </form>
+
+            <table>
+                <caption><h2>Posts</h2></caption>
+                <tr>
+                    <h3><th>Guest</th>
+                    <th>Comment</th></h3>
+                </tr>
+                {% for guest in guests %}
+                <tr>
+                    <td>{{ guest.name }}</td>
+                    <td>{{ guest.comment }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div><!--end content-->
+    </div><!--end container-->
+</body>
+</html>

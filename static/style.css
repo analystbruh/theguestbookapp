@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    background: firebrick;
+    height: 70px;
+    padding-top: 10px;
+    color: white;
+}
+
+h1 {
+    margin-left: 20px;
+    width: 700px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content {
+    display: inline-block;
+    width: 80%
+}
+
+form {
+    text-align: left;
+    width: 100%;
+}
+
+input[type=text], textarea {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 10px;
+    border: 1px solid firebrick;
+    box-sizing: border-box;
+    font-size : 18px;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    background: crimson;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: darkred;
+}
+
+textarea {
+    resize: none;
+}
+
+
+table {
+    border: 1px solid firebrick;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+
+table, th, td {
+    border-left: 1px solid firebrick;
+    height: 30px;
+}
+
+th, td {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+th {
+    background: firebrick;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: silver;
+}
