@@ -7,7 +7,8 @@ __author__ = 'analystbruh'
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://chrismartin@localhost:5432/guestbook'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ocnkipjgkglpbs:c10bbc17c423c2bc13245a342084c97e51e99a7a50603a01590ec410fc4fa5a5@ec2-23-21-198-69.compute-1.amazonaws.com:5432/d5kbrkeb0u7cd3'
+#'postgres://chrismartin@localhost:5432/guestbook'
 heroku = Heroku(app)
 db = SQLAlchemy(app)
 
