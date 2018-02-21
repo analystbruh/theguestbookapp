@@ -1,13 +1,13 @@
 # theguestbookapp
 me practicing with postgresql and flask. Below is the process I used.
 
-install homebrew if you don't have it on mac:
+### install homebrew if you don't have it on mac:
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-make sure homebew is up to date if you already have it:
+### make sure homebew is up to date if you already have it:
 $ brew update
 
-install postrgres (first remove old postgres if it's already installed on your mac):
+### install postrgres (first remove old postgres if it's already installed on your mac):
 $ brew install postgresql
 
 start stop postgres installed with homebrew:
