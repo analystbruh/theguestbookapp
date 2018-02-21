@@ -8,8 +8,9 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew update
 
 ### install postrgres (first remove old postgres if it's already installed on your mac):
+```
 $ brew install postgresql
-
+```
 start stop postgres installed with homebrew:
 $ pg_ctl -D /usr/local/var/postgres start
 $ pg_ctl -D /usr/local/var/postgres stop
