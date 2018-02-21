@@ -22,7 +22,7 @@ $ pg_ctl -D /usr/local/var/postgres stop
 ```
 Start the postgres server.
 
-Install pgadmin4 and use that to create the database to use in the app. pgadmin4 makees this easy.
+Go to pgadmin4 webist and install pgadmin4 on your machine. Use that to create the database to use in the app. pgadmin4 makes this easy.
 
 Build your app.
 
