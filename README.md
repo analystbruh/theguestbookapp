@@ -1,4 +1,4 @@
-# ThegGuestbookapp
+# TheGuestbookapp
 me practicing with postgresql and flask. Below is the process I used.
 
 ### install homebrew if you don't have it on mac:
