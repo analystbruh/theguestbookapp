@@ -27,12 +27,12 @@ Go to pgadmin4 webist and install pgadmin4 on your machine. Use that to create t
 Build your app.
 
 ### push flask app to heroku:
-necessary files and libraries
-* lib gunicorn
-* lib flask-heroku (for heroku CLI)
-* file reqirements.txt
-* file Procfile (case sensitive, no extension) --> contents-> web: gunicorn app:app
-* file runtime.txt --> contents-> python-x.x.x
+necessary files and modules
+* module: gunicorn
+* module: flask-heroku (for heroku CLI)
+* file: reqirements.txt
+* file: Procfile (case sensitive, no extension) --> contents-> web: gunicorn app:app
+* file: runtime.txt --> contents-> python-x.x.x
 
 ### install git and heroku:
 ```
