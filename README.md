@@ -46,7 +46,7 @@ in terminal cd to project directory
 $ git init
 $ git add .
 $ git commit -m "comments"
-$ heroku
+$ heroku create name-of-your-app
 $ git push heroku master
 ```
 
