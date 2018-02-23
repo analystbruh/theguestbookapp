@@ -76,4 +76,7 @@ $ heroku run python
 $ heroku logout
 ```
 
-### app should be live and working @ apps-name dot herokuapp dot com
+### app should be live and working @: 
+```
+https://apps-name.herokuapp.com
+```
