@@ -62,7 +62,7 @@ $ heroku config (will show you database url)
 ### copy DATABASE_URL and replace uri in app with it then:
 ```
 $ git add app.py (or whatever filename)
-$ git commit -m "comments" --dry-run (too see what is changing)
+$ git commit -m "comments" --dry-run (to see what is changing)
 $ git commit -m "comments" (actual commit to local repo)
 $ git push heroku master
 ```
